@@ -79,7 +79,7 @@ threadpoolctl==3.5.0
 torch==2.0.1
 torch-tb-profiler==0.4.3
 torchaudio==2.0.2
-torchvision==0.15.2
+torchvision==0.19.1
 tqdm==4.66.5
 typing_extensions==4.12.2
 tzdata==2024.1
