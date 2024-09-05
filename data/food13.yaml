@@ -1,0 +1,22 @@
+
+path: ./dataset/foods13 # dataset root dir
+train: images/ # train images (relative to 'path') 128 images
+val: images/ # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# Classes
+names:
+  0 : protein
+  1 : vegetable
+  2 : carbohydrate
+  3 : class1
+  4 : class2
+  5 : class3
+  6 : class4
+  7 : class5
+  8 : class6
+  9 : class7
+  10 : class8
+  11 : class9
+  12 : class10
+ 
