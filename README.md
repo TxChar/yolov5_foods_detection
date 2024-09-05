@@ -1,3 +1,21 @@
+# Members
+- Jaturawich Khochun 6410110060
+- Pacharawut Thanawut 6410110340
+
+# Command
+## YoLo  
+Training
+python3 yolo_train.py --img 224 --epochs 100 --batch 4 --data food13.yaml --weights yolov5s.pt
+Testing
+python3 ./detect.py --weights runs/train/exp/weights/best.pt --source dataset/foods13/images/class3_1.jpg --save-conf --save-txt
+Tensorboard
+tensorboard --logdir=runs 
+
+## Unet
+Pls be patient.
+
+
+
 <div align="center">
   <p>
     <a href="https://ultralytics.com/events/yolovision" target="_blank">
