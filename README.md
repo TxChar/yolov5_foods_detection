@@ -4,11 +4,11 @@
 
 # Command
 ## YoLo  
-Training
+- Training
 - python3 yolo_train.py --img 224 --epochs 100 --batch 4 --data food13.yaml --weights yolov5s.pt
-Testing
+- Testing
 - python3 ./detect.py --weights runs/train/exp/weights/best.pt --source dataset/foods13/images/class3_1.jpg --save-conf --save-txt
-Tensorboard
+- Tensorboard
 - tensorboard --logdir=runs 
 
 ## Unet
