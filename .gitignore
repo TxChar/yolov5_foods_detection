@@ -23,7 +23,8 @@
 !setup.cfg
 !cfg/yolov3*.cfg
 
-runs 
+runs
+.cometml-runs
 storage.googleapis.com
 runs/*
 data/*
