@@ -94,4 +94,4 @@ Werkzeug==3.0.4
 wrapt==1.16.0
 wurlitzer==3.1.1
 xxhash==3.5.0
-yarl==1.9.4
+yarl==1.11.0
